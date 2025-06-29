@@ -1,6 +1,6 @@
 # Silent script to create an exclusive folder and add it to Defender exclusions
 
-$folderPath = "D:\SystemTest"
+$folderPath = "C:\SystemTest"
 
 # Check if folder exists; if not, create it
 if (!(Test-Path -Path $folderPath)) {
